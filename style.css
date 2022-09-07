@@ -9,3 +9,27 @@ body{
 .e-yellow{ color:#F4B400; }
 .m-green{ color:#0F9D58; }
 .y-orange { color: orange; }
+
+.scarousel-img img{
+    height: 100vh;
+}
+.carousel-text {
+    background: rgba(12, 11, 18, 0.521);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+.carousel-content {
+    width: 80%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+}
+@media only screen and (max-width: 991px) {
+
+    .carousel-text img {
+        height: 100vh;
+    }
+}
